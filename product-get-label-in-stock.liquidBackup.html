@@ -1,0 +1,254 @@
+<style>
+    .d-inline-flex {
+        display: -ms-inline-flexbox !important;
+        display: inline-flex !important;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+</style>
+
+<div class="d-inline-flex">
+    <div class="product-label-style" style="background-color: #00477E;">
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_Baby Boy' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Baby Boy</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_Baby Girl' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Baby Girl</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_Infant Boy' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Infant Boy</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_Infant Girl' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Infant Girl</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_Toddler Boy' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Toddler Boy</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_Toddler Girl' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Toddler Girl</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_4-7 Boy' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>4-7 Boy</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_4-6x Girl' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>4-6x Girl</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_8-20 Boy' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>8-20 Boy</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_7-14 Girl' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>7-14 Girl</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_Young Mens' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Young Mens</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Department_Junior' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Junior</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% if sold_out %}
+        <strong class="sold-out-label" {% if settings.enable_multilang %}data-translate="products.product.sold_out" {% endif %}>{{ 'products.product.sold_out' | t }}</strong>
+        {% endif %}
+    </div>
+    <h7>&nbsp;</h7>
+    <div class="product-label" style="background-color: #6DA7E6;">
+        {% for tag in product.tags %}
+        {% if tag contains '0717' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Summer<br>Sale</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains '5HGO' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>25% Off</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains '06UA' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>New UA</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains '06blk' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>50% OFF</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains '05blk' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>50% OFF</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains '00BLK' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>50% OFF</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains '6uablk' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>30% OFF</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains '6uaqblk' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>25% OFF</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'CP0' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Camp Labels</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'GC0' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Gift Cards</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'campdeposits' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Camp Deposits</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'UAC0' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Sale Exclusion</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'UAC3' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Sale Exclusion</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Discount_25% Off' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Basic</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Sale' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Sale</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Season_Holiday' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Holiday</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Season_Winter' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Winter</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Season_Cruise 1' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>New Arrivals</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains '0220' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>New Arrivals</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains '0320' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>New Arrivals</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% for tag in product.tags %}
+        {% if tag contains 'Season_Black Friday' %}
+        <strong class="label" {% if settings.enable_multilang %}data-translate="products.product.sale" {% endif %}>Black Friday</strong>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+
+        {% if sold_out %}
+        <strong class="sold-out-label" {% if settings.enable_multilang %}data-translate="products.product.sold_out" {% endif %}>{{ 'products.product.sold_out' | t }}</strong>
+        {% endif %}
+    </div>
+</div>
